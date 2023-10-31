@@ -86,7 +86,7 @@ public class PlayerMovement : MonoBehaviour
                 rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
             }
         }
-        if (Input.GetKeyDown(KeyCode.C) && canDash)
+        if (Input.GetKeyDown(KeyCode.X) && canDash)
         {
             isDashing = true;
             canDash = false;
